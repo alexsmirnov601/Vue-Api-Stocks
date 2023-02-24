@@ -1,29 +1,5 @@
-# vue-stocks
+# Preview:
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+![1](https://user-images.githubusercontent.com/107110241/221213643-c6c62ad6-d5f0-4570-bf31-1e31bf0af4b8.png)
+![2](https://user-images.githubusercontent.com/107110241/221213619-1373e384-415a-46dd-a795-0292c5c1337d.png)
+![3](https://user-images.githubusercontent.com/107110241/221213648-734f458a-a1c5-46f8-89b7-d25cfd43f146.png)
