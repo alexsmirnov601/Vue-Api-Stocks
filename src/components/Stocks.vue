@@ -33,18 +33,22 @@ export default {
       <div class="stock-item" v-for="stock in stocks" :key="stock.stock">
         <div class="stock-item__info">
           <div class="stock-item__cover">
-            <img :src="stock.image" :alt="stock.companyName" />
+            <img
+              class="stock__image"
+              :src="stock.image"
+              :alt="stock.companyName"
+            />
           </div>
           <h3 class="stock-item__title">
             {{ stock.companyName }}
             <span>{{ stock.symbol }}</span>
           </h3>
+          <span class="stock-item__price">{{ stock.price }} $</span>
         </div>
-        <span class="stock-item__price">{{ stock.price }} $</span>
       </div>
     </div>
     <h3>Get info about company</h3>
-    <select v-model="selected">
+    <select class="select" v-model="selected">
       <option disabled value="">Select Company</option>
       <option
         v-for="stock in stocks"
